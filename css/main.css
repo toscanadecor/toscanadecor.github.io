@@ -1,0 +1,552 @@
+#anchor {
+    position: absolute;
+    margin-top: 4500px;
+    height: 5px;
+    width: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus {
+    border-color: #6a6 !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #6a6;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #6a6;
+}
+
+.section {
+    /*border-bottom:1px dotted #000;*/
+}
+
+.white_text {
+    /*color: white;*/
+}
+
+h1#brand {
+    font-family: 'Playfair Display SC', serif;
+}
+
+h1 {
+
+    font-size: 180%;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 200%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 130%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    font-size: 70%;
+}
+
+.textOnImages {
+    text-shadow: -1px -1px 30px white, 1px -1px 30px white, -1px 1px 30px white, 1px 1px 30px white;
+}
+
+.textOnFirstPage {
+    color: black;
+    /*text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;*/
+}
+
+.carousel .carousel-indicators li {
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+.carousel .carousel-indicators li.active {
+    border: 1px solid gray;
+    background-color: black;
+}
+
+/*==============================buttons==============================*/
+.mybtn0, .mybtn0:focus, .mybtn0:hover {
+    text-decoration: none;
+    border-radius: 0px;
+    border: 1px solid black;
+    color: black;
+    margin-left: 10px;
+}
+
+.mybtn0:hover {
+    background-image: url("../img/halfWhite.png");
+    background-repeat: repeat;
+}
+
+.mybtnFistPage, .mybtnFistPage:focus, .mybtnFistPage:hover {
+    font-size: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+    color: black;
+    margin-bottom: 50px;
+    /*text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black;*/
+}
+
+.mybtnFistPage:hover {
+    background-image: url("../img/halfWhite.png");
+    background-repeat: repeat;
+}
+
+.mybtn1, .mybtn1:focus, .mybtn1:hover {
+    font-size: 100%;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.mybtn1:hover {
+    background-image: url("../img/halfWhite.png");
+    background-repeat: repeat;
+}
+
+.mybtn2, .mybtn2:focus, .mybtn2:hover {
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+    background-color: #f3ead5;
+    /*#f3ead5;*/
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.mybtn2:hover {
+    background-image: url("../img/halfWhite.png");
+    background-repeat: repeat;
+}
+
+/*==============================navigation==============================*/
+.navbar.navbar-custom {
+    opacity: .7;
+    border-bottom: 1pt solid #6a6;
+    background: #fff;
+    border-radius: 0;
+}
+
+/***Link Color***/
+
+.navbar.navbar-custom .navbar-nav > li > a {
+}
+
+/***Link Color Hover Statr***/
+
+.navbar.navbar-custom .navbar-nav > li > a:hover {
+}
+
+/***Link Background and Color Active State***/
+
+.navbar.navbar-custom .navbar-nav > .active,
+.navbar.navbar-custom .navbar-nav > .active > a,
+.navbar.navbar-custom .navbar-nav > .active > a:hover,
+.navbar.navbar-custom .navbar-nav > .active > a:focus {
+    border: none;
+}
+
+/***Navbar Brand Link Color***/
+
+.navbar.navbar-custom .navbar-brand {
+
+    border: none;
+    /*color: #f00;*/
+}
+
+/***Navbar Brand Link Color Hover State***/
+
+.navbar.navbar-custom .navbar-brand:hover {
+    /*color: #fff;*/
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background: #6a6;
+}
+
+/***Dropdown Background Active State***/
+.container {
+    text-align: center;
+}
+
+.navbar .navbar-brand img {
+    resize: vertical;
+    height: 50px;
+    margin-top: -10px;
+
+}
+
+.navbar .navbar-text {
+    font-size: 60%;
+
+}
+
+.navbar .dropdown {
+    font-size: 60%;
+}
+.navbar .phone {
+    padding-top:5px;
+}
+/*==============================section 1==============================*/
+#page_1 {
+    height: 960px;
+    background-image: url(../img/1_bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#page_1 #brand {
+    margin-top: 250px;
+    font-size: 370%;
+}
+
+#page_1 #in_spb {
+    font-size: 140%;
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#page_1 #creation
+{
+    font-size: 120%;
+}
+/*==============================section 2==============================*/
+#page_2 {
+}
+
+#page_2 .text1 {
+    margin-bottom: 50px;
+}
+
+div#page_2 .block {
+
+    width: 370px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+div#page_2 p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*==============================section 3==============================*/
+#page_3 {
+}
+
+#page_3 .text1 {
+    margin-bottom: 50px;
+}
+
+#page_3 .header_holder {
+    font-size: 100%;
+    text-decoration: underline;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#page_3 .header_holder_left {
+    text-align: left;
+}
+
+#page_3 .header_holder_right {
+    text-align: right;
+}
+
+#page_3 #content_holder1 {
+    background-image: url(../img/3_style.png);
+}
+
+#page_3 #content_holder2 {
+    background-image: url(../img/3_place.png);
+}
+
+#page_3 #content_holder3 {
+    background-image: url(../img/3_highQualityDecor.png);
+}
+
+#page_3 #content_holder4 {
+    background-image: url(../img/3_textilesDishes.png);
+}
+
+#page_3 #content_holder5 {
+    background-image: url(../img/3_mashtabPlaces.png);
+}
+
+#page_3 #content_holder6 {
+    background-image: url(../img/3_complex.png);
+}
+
+.content_holder {
+    background-size: 400px;
+}
+
+.content_holder > div {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.content_holder > div > h3 {
+    margin-bottom: 20px;
+}
+
+div.myhover:hover {
+    background-color: red;
+}
+
+.content_holder {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*==============================section 4==============================*/
+div#page_4 {
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+div#page_4 #carousel1 {
+    background-image: url(../img/4_bg1.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+div#page_4 #carousel2 {
+    background-image: url(../img/4_bg2.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+div#page_4 #carousel3 {
+    background-image: url(../img/4_bg3.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+div#page_4 #carousel4 {
+    background-image: url(../img/4_bg4.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+div#page_4 #carousel5 {
+    background-image: url(../img/4_bg5.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+div#page_4 #carousel6 {
+    background-image: url(../img/4_bg6.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+div#page_4 .carousel-inner .item {
+    height: 612px;
+    margin: auto;
+}
+
+div#page_4 .carousel-inner button {
+    margin-top: 0px;
+}
+
+div#page_4 .carousel-inner {
+    color: black;
+    text-shadow: -1px -1px 30px white, 1px -1px 30px white, -1px 1px 30px white, 1px 1px 30px white;
+}
+
+div#page_4 .carousel-inner .container div {
+    height: 230px;
+}
+
+div#page_4 .carousel-inner h4 {
+    margin-top: 100px;
+    margin-bottom: 120px;
+    text-shadow: -1px -1px 30px white, 1px -1px 30px white, -1px 1px 30px white, 1px 1px 30px white;
+}
+
+/*==============================section 5==============================*/
+div#page_5 {
+}
+
+div#page_5 .carousel-inner .item {
+    margin-bottom: 100px;
+}
+
+#page_5 a img {
+    margin-bottom: 5px;
+}
+
+#page_5 a img:hover {
+    opacity: .7;
+}
+.partners {
+    text-align: left;
+    maring-left: 30px;
+
+}
+div#page_5 h1.modal-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*==============================section 6==============================*/
+div#page_6 {
+}
+
+#page_6 ol {
+    font-size:110%;
+}
+
+.page6images {
+    padding-top: 10px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#florists {
+    background-image: url(../img/6_florists.png);
+}
+
+#masters {
+    background-image: url(../img/6_mastes.png);
+}
+
+#decorators {
+    background-image: url(../img/6_decorators.png);
+}
+
+div#page_6 button {
+    margin: 50px;
+}
+
+div#page_6 .block {
+    width: 370px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+/*==============================section 7==============================*/
+div#page_7 {
+    background-image: url(../img/7_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*==============================section 8==============================*/
+div#page_8 {
+}
+
+div#page_8 .block {
+
+    width: 280px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+/*==============================section 8==============================*/
+div#page_8_2 {
+}
+
+div#page_8_2 .block {
+
+    width: 190px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+/*==============================section 9==============================*/
+div#page_9 #blog{
+    font-size: 80%;
+}
+
+/*==============================section 10==============================*/
+div#page_10 {
+    background-image: url(../img/10_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*==============================section 11==============================*/
+div#page_11 {
+}
+
+/*==============================mail form==============================*/
+#mailForm h1 {
+    text-align: center;
+}
+
+#mailForm .text1 {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/*==============================blog ==============================*/
+.article {
+    text-align: left;
+}
